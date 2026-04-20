@@ -1,0 +1,2091 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLYMPO CRIAÇÕES | Agência de Marketing Digital e Criação de Sites</title>
+  <meta name="description" content="OLYMPO CRIAÇÕES - Agência de marketing digital especializada em criação de sites profissionais, Instagram estratégico, conteúdo e estrutura digital premium." />
+  <meta name="keywords" content="marketing digital, criação de sites, instagram pro, conteúdo para instagram, agência digital, site profissional, olympo criações" />
+  <meta name="author" content="OLYMPO CRIAÇÕES" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0b0f0e" />
+  <link rel="canonical" href="https://olympocriacoes.netlify.app/" />
+
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="OLYMPO CRIAÇÕES | Agência de Marketing Digital e Criação de Sites" />
+  <meta property="og:description" content="Transformamos negócios em máquinas de vendas online com sites profissionais, Instagram estratégico e estrutura digital premium." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://olympocriacoes.netlify.app/" />
+  <meta property="og:image" content="https://olympocriacoes.netlify.app/imagens/capa-olympo.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="OLYMPO CRIAÇÕES | Agência de Marketing Digital e Criação de Sites" />
+  <meta name="twitter:description" content="Sites profissionais, conteúdo estratégico e estrutura digital para vender mais." />
+  <meta name="twitter:image" content="https://olympocriacoes.netlify.app/imagens/capa-olympo.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "OLYMPO CRIAÇÕES",
+    "image": "https://olympocriacoes.netlify.app/imagens/capa-olympo.jpg",
+    "url": "https://olympocriacoes.netlify.app/",
+    "telephone": "+55 41 99767-0831",
+    "sameAs": [
+      "https://www.instagram.com/olympo_criacoes"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "BR"
+    },
+    "areaServed": "Brasil",
+    "description": "Agência de marketing digital especializada em criação de sites profissionais, gestão de Instagram e conteúdo estratégico."
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #070909;
+      --bg-soft: #0d1110;
+      --card: rgba(16, 22, 21, 0.94);
+      --card-2: rgba(10, 14, 13, 0.98);
+      --text: #f6f6f2;
+      --muted: #b5bbb4;
+      --emerald: #0f6b53;
+      --emerald-2: #19a57d;
+      --gold: #d8b56a;
+      --gold-2: #f1d690;
+      --line: rgba(216, 181, 106, 0.14);
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+      --radius: 24px;
+      --radius-sm: 16px;
+      --max-width: 1220px;
+      --header-h: 84px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(25, 165, 125, 0.14), transparent 22%),
+        radial-gradient(circle at top left, rgba(216, 181, 106, 0.08), transparent 18%),
+        linear-gradient(180deg, #050606 0%, #0c100f 100%);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea, select { font: inherit; }
+    .container { width: min(100% - 32px, var(--max-width)); margin: 0 auto; }
+    .section { padding: 92px 0; position: relative; }
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.08;
+      margin-bottom: 14px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+    }
+    .section-subtitle {
+      color: var(--muted);
+      max-width: 800px;
+      font-size: 1.02rem;
+      margin-bottom: 42px;
+    }
+    .gold-text {
+      background: linear-gradient(90deg, var(--gold-2), var(--gold));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border: 1px solid rgba(216, 181, 106, 0.18);
+      background: rgba(216, 181, 106, 0.08);
+      color: var(--gold-2);
+      border-radius: 999px;
+      font-size: 0.92rem;
+      margin-bottom: 18px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px 24px;
+      border-radius: 999px;
+      font-weight: 800;
+      transition: 0.28s ease;
+      border: 1px solid transparent;
+      cursor: pointer;
+      font-size: 0.98rem;
+      white-space: nowrap;
+    }
+    .btn:hover { transform: translateY(-3px); }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold), var(--gold-2));
+      color: #111;
+      box-shadow: 0 16px 40px rgba(216, 181, 106, 0.22);
+    }
+    .btn-primary:hover { box-shadow: 0 22px 50px rgba(216, 181, 106, 0.28); }
+    .btn-secondary {
+      background: rgba(25, 165, 125, 0.12);
+      border-color: rgba(25, 165, 125, 0.34);
+      color: #dcfff4;
+    }
+    .btn-outline {
+      background: transparent;
+      border-color: rgba(216, 181, 106, 0.34);
+      color: var(--gold-2);
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+      transition: 0.3s ease;
+      backdrop-filter: blur(12px);
+      background: rgba(6, 8, 8, 0.72);
+      border-bottom: 1px solid rgba(216, 181, 106, 0.08);
+    }
+    header.scrolled {
+      background: rgba(5, 6, 6, 0.92);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+    }
+    .nav {
+      min-height: var(--header-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+    .brand img {
+      width: 52px;
+      height: 52px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid rgba(216, 181, 106, 0.4);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    }
+    .brand-text { display: flex; flex-direction: column; line-height: 1.1; }
+    .brand-text strong { font-size: 1rem; letter-spacing: 0.08em; }
+    .brand-text span {
+      font-size: 0.78rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .nav-links a {
+      color: #edf2ef;
+      font-size: 0.96rem;
+      transition: 0.25s ease;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-2));
+      transition: 0.25s ease;
+    }
+    .nav-links a:hover { color: var(--gold-2); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-actions { display: flex; align-items: center; gap: 12px; }
+
+    .menu-toggle {
+      display: none;
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      border: 1px solid rgba(216, 181, 106, 0.16);
+      background: rgba(216, 181, 106, 0.08);
+      color: var(--gold-2);
+      cursor: pointer;
+      position: relative;
+    }
+    .menu-toggle span,
+    .menu-toggle::before,
+    .menu-toggle::after {
+      content: "";
+      position: absolute;
+      left: 12px;
+      width: 22px;
+      height: 2px;
+      background: currentColor;
+      transition: 0.3s ease;
+      border-radius: 10px;
+    }
+    .menu-toggle span { top: 22px; }
+    .menu-toggle::before { top: 16px; }
+    .menu-toggle::after { top: 28px; }
+    .menu-toggle.active span { opacity: 0; }
+    .menu-toggle.active::before { top: 22px; transform: rotate(45deg); }
+    .menu-toggle.active::after { top: 22px; transform: rotate(-45deg); }
+
+    .mobile-menu {
+      display: none;
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 16px;
+      right: 16px;
+      background: rgba(8, 10, 10, 0.97);
+      border: 1px solid rgba(216, 181, 106, 0.12);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+    .mobile-menu.active { display: block; animation: fadeUp 0.3s ease; }
+    .mobile-menu a {
+      display: block;
+      padding: 14px 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: #f4f4f2;
+    }
+    .mobile-menu a:last-child { border-bottom: none; }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding-top: calc(var(--header-h) + 40px);
+      background:
+        linear-gradient(rgba(4, 6, 6, 0.72), rgba(4, 6, 6, 0.86)),
+        url('imagens/hero-bg.jpg') center/cover no-repeat;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(25, 165, 125, 0.18), transparent 28%),
+        radial-gradient(circle at 80% 10%, rgba(216, 181, 106, 0.12), transparent 22%);
+      pointer-events: none;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1.12fr 0.88fr;
+      gap: 34px;
+      align-items: center;
+    }
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 5.1rem);
+      line-height: 0.98;
+      margin-bottom: 20px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      max-width: 850px;
+    }
+    .hero p {
+      color: #dfe4e0;
+      max-width: 680px;
+      font-size: 1.08rem;
+      margin-bottom: 30px;
+    }
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 34px;
+    }
+    .hero-card {
+      background: linear-gradient(180deg, rgba(17,24,23,0.9), rgba(10,14,13,0.96));
+      border: 1px solid rgba(216,181,106,0.16);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(216,181,106,0.08), transparent 35%, rgba(25,165,125,0.08));
+      pointer-events: none;
+    }
+    .hero-card h3 {
+      font-size: 1.36rem;
+      margin-bottom: 14px;
+      position: relative;
+    }
+    .hero-card p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+      position: relative;
+    }
+    .hero-mini-stats {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 14px;
+      margin-top: 22px;
+      position: relative;
+    }
+    .hero-mini-stats div {
+      padding: 16px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    .hero-mini-stats strong {
+      display: block;
+      font-size: 1.25rem;
+      color: var(--gold-2);
+      margin-bottom: 6px;
+    }
+
+    .stats-grid,
+    .cards-grid,
+    .plans-grid,
+    .steps-grid,
+    .testimonials-grid,
+    .faq-grid,
+    .footer-grid {
+      display: grid;
+      gap: 24px;
+    }
+    .stats-grid { grid-template-columns: repeat(4,1fr); }
+    .cards-grid { grid-template-columns: repeat(3,1fr); }
+    .plans-grid { grid-template-columns: repeat(4,1fr); }
+    .steps-grid { grid-template-columns: repeat(4,1fr); }
+    .testimonials-grid { grid-template-columns: repeat(3,1fr); }
+    .faq-grid { grid-template-columns: 1fr 1fr; }
+
+    .stat-card,
+    .service-card,
+    .plan-card,
+    .step-card,
+    .testimonial-card,
+    .faq-item {
+      background: linear-gradient(180deg, rgba(16,22,21,0.95), rgba(9,12,12,0.98));
+      border: 1px solid rgba(216,181,106,0.1);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .stat-card {
+      padding: 28px 24px;
+      text-align: center;
+      transition: 0.35s ease;
+    }
+    .stat-card:hover,
+    .service-card:hover,
+    .plan-card:hover,
+    .testimonial-card:hover,
+    .step-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(216,181,106,0.25);
+      box-shadow: 0 24px 65px rgba(0,0,0,0.42);
+    }
+    .stat-card h3 {
+      font-size: clamp(2rem, 3vw, 2.6rem);
+      color: var(--gold-2);
+      margin-bottom: 8px;
+      line-height: 1;
+    }
+    .stat-card p {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .service-card,
+    .plan-card {
+      overflow: hidden;
+      transition: 0.35s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-image {
+      height: 240px;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-image::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 35%, rgba(4,5,5,0.72) 100%);
+    }
+    .card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s ease;
+    }
+    .service-card:hover .card-image img,
+    .plan-card:hover .card-image img { transform: scale(1.06); }
+    .card-content {
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .card-tag {
+      display: inline-block;
+      width: fit-content;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(25,165,125,0.12);
+      border: 1px solid rgba(25,165,125,0.28);
+      color: #cbfff0;
+      font-size: 0.82rem;
+      margin-bottom: 14px;
+      font-weight: 700;
+    }
+    .card-content h3 {
+      font-size: 1.52rem;
+      margin-bottom: 12px;
+      line-height: 1.15;
+    }
+
+    .price-box {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .price-main,
+    .price-monthly {
+      padding: 14px 16px;
+      border-radius: 16px;
+    }
+    .price-main {
+      background: rgba(216,181,106,0.08);
+      border: 1px solid rgba(216,181,106,0.2);
+    }
+    .price-main span,
+    .price-monthly span {
+      display: block;
+      font-size: 0.84rem;
+      margin-bottom: 5px;
+      letter-spacing: 0.02em;
+    }
+    .price-main span { color: #f6e6bc; font-weight: 700; }
+    .price-monthly span { color: #d7fff3; }
+    .price-main strong {
+      font-size: 1.6rem;
+      line-height: 1.1;
+      color: var(--gold-2);
+    }
+    .price-monthly {
+      background: rgba(25,165,125,0.1);
+      border: 1px solid rgba(25,165,125,0.2);
+    }
+    .price-monthly strong {
+      font-size: 1.2rem;
+      line-height: 1.1;
+      color: #dcfff4;
+    }
+
+    .pricing-guidance {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .pricing-guidance li {
+      list-style: none;
+      position: relative;
+      padding-left: 22px;
+      color: #e9eeea;
+      font-size: 0.94rem;
+    }
+    .pricing-guidance li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--gold-2);
+      font-weight: 900;
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+      color: #e8ece8;
+    }
+    .feature-list li {
+      list-style: none;
+      position: relative;
+      padding-left: 22px;
+      color: #edf0ec;
+      font-size: 0.95rem;
+    }
+    .feature-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--gold-2);
+      font-weight: bold;
+    }
+
+    .deadline,
+    .payment-note,
+    .important-phrase,
+    .note {
+      padding: 14px 16px;
+      border-radius: 16px;
+      font-size: 0.92rem;
+      margin-top: 12px;
+    }
+    .deadline {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      color: var(--muted);
+    }
+    .payment-note {
+      background: rgba(216,181,106,0.09);
+      border: 1px solid rgba(216,181,106,0.2);
+      color: #f6e6bc;
+    }
+    .important-phrase,
+    .note {
+      background: rgba(25,165,125,0.1);
+      border: 1px solid rgba(25,165,125,0.18);
+      color: #dcfff4;
+    }
+
+    .card-actions {
+      margin-top: auto;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding-top: 18px;
+    }
+
+    .plan-card.featured {
+      border: 1px solid rgba(216,181,106,0.32);
+      transform: translateY(-8px);
+      position: relative;
+    }
+    .featured-badge {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      z-index: 2;
+      background: linear-gradient(135deg, var(--gold), var(--gold-2));
+      color: #111;
+      font-weight: 800;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      box-shadow: 0 10px 25px rgba(216,181,106,0.25);
+    }
+
+    .custom-plan {
+      position: relative;
+      border: 1px solid rgba(216,181,106,0.38);
+      box-shadow: 0 0 0 1px rgba(216,181,106,0.08), 0 22px 60px rgba(0,0,0,0.42);
+      overflow: hidden;
+    }
+    .custom-plan::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(216,181,106,0.08), transparent 30%, rgba(25,165,125,0.08));
+      pointer-events: none;
+      z-index: 0;
+    }
+    .custom-plan .card-content,
+    .custom-plan .card-image { position: relative; z-index: 1; }
+    .custom-badge {
+      display: inline-flex;
+      width: fit-content;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(216,181,106,0.18), rgba(216,181,106,0.08));
+      border: 1px solid rgba(216,181,106,0.35);
+      color: var(--gold-2);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      box-shadow: 0 10px 25px rgba(216,181,106,0.12);
+    }
+
+    .step-card {
+      padding: 28px 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    .step-number {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-size: 1.4rem;
+      font-weight: 900;
+      margin-bottom: 18px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-2));
+      color: #111;
+      box-shadow: 0 14px 35px rgba(216,181,106,0.2);
+    }
+    .step-card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 10px;
+    }
+    .step-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .process-note {
+      margin-top: 28px;
+      background: linear-gradient(180deg, rgba(16,22,21,0.95), rgba(9,12,12,0.98));
+      border: 1px solid rgba(216,181,106,0.12);
+      border-radius: var(--radius);
+      padding: 26px;
+      color: var(--muted);
+      box-shadow: var(--shadow);
+    }
+
+    .testimonial-card { padding: 28px; }
+    .stars {
+      color: var(--gold-2);
+      font-size: 1rem;
+      margin-bottom: 18px;
+      letter-spacing: 2px;
+    }
+    .testimonial-card p {
+      color: #e9ece8;
+      margin-bottom: 18px;
+      font-size: 0.98rem;
+    }
+    .testimonial-card strong { display: block; font-size: 1rem; }
+    .testimonial-card span { color: var(--muted); font-size: 0.9rem; }
+
+    .faq-item { padding: 0; overflow: hidden; }
+    .faq-question {
+      width: 100%;
+      background: transparent;
+      border: none;
+      color: var(--text);
+      text-align: left;
+      padding: 22px 24px;
+      font-size: 1rem;
+      font-weight: 700;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+    .faq-question span:last-child {
+      color: var(--gold-2);
+      font-size: 1.4rem;
+      transition: 0.3s ease;
+      margin-left: 14px;
+      flex-shrink: 0;
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+      color: var(--muted);
+      padding: 0 24px;
+    }
+    .faq-item.active .faq-answer {
+      max-height: 220px;
+      padding: 0 24px 24px;
+    }
+    .faq-item.active .faq-question span:last-child {
+      transform: rotate(45deg);
+    }
+
+    .cta {
+      background:
+        linear-gradient(135deg, rgba(25,165,125,0.18), rgba(216,181,106,0.14)),
+        linear-gradient(180deg, rgba(12,17,16,0.96), rgba(8,10,10,0.98));
+      border-top: 1px solid rgba(216,181,106,0.1);
+      border-bottom: 1px solid rgba(216,181,106,0.1);
+    }
+    .cta-box {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 24px;
+      align-items: center;
+      padding: 40px;
+      border-radius: 30px;
+      background: rgba(11,15,14,0.76);
+      border: 1px solid rgba(216,181,106,0.12);
+      box-shadow: var(--shadow);
+    }
+    .cta-box p {
+      color: #dce0dc;
+      margin-top: 12px;
+      max-width: 760px;
+    }
+    .cta-actions {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    footer {
+      padding: 70px 0 30px;
+      background: #050606;
+    }
+    .footer-grid {
+      grid-template-columns: 1.2fr 1fr 1fr;
+      margin-bottom: 28px;
+    }
+    .footer-brand {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+    .footer-brand img {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(216,181,106,0.35);
+    }
+    footer h4 {
+      margin-bottom: 14px;
+      color: var(--gold-2);
+    }
+    footer p, footer li, footer a {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+    .footer-links {
+      display: grid;
+      gap: 10px;
+      list-style: none;
+    }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 20px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.92rem;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg,#0ba360,#25d366);
+      color: #fff;
+      font-size: 1.55rem;
+      box-shadow: 0 18px 40px rgba(37,211,102,0.28);
+      z-index: 999;
+      transition: 0.3s ease;
+    }
+    .whatsapp-float:hover { transform: translateY(-4px) scale(1.04); }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(3,4,4,0.76);
+      backdrop-filter: blur(8px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+    .modal.active { display: flex; }
+    .modal-content {
+      width: min(100%, 760px);
+      background: linear-gradient(180deg, rgba(15,20,19,0.98), rgba(8,10,10,1));
+      border: 1px solid rgba(216,181,106,0.18);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      animation: fadeUp 0.35s ease;
+      max-height: 92vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      padding: 22px 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .modal-header h3 { font-size: 1.4rem; }
+    .modal-close {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1px solid rgba(216,181,106,0.18);
+      background: rgba(216,181,106,0.08);
+      color: var(--gold-2);
+      cursor: pointer;
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+    .modal-body {
+      padding: 24px;
+      overflow-y: auto;
+    }
+    .modal-body p {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+    .modal-body h4 {
+      color: var(--gold-2);
+      margin: 18px 0 10px;
+      font-size: 1rem;
+    }
+    .modal-body ul {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+      list-style: none;
+    }
+    .modal-body li {
+      position: relative;
+      padding-left: 22px;
+      color: #eef0ec;
+    }
+    .modal-body li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--gold-2);
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+    .modal-footer {
+      padding: 0 24px 24px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .lead-form {
+      display: grid;
+      gap: 14px;
+    }
+    .selected-service-chip {
+      display: inline-flex;
+      width: fit-content;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(216,181,106,0.08);
+      border: 1px solid rgba(216,181,106,0.16);
+      color: var(--gold-2);
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .lead-form .full { grid-column: 1 / -1; }
+    .lead-form label {
+      display: grid;
+      gap: 8px;
+      color: #eef1ed;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+    .lead-form input,
+    .lead-form textarea,
+    .lead-form select {
+      width: 100%;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: var(--text);
+      border-radius: 16px;
+      padding: 14px 16px;
+      outline: none;
+      transition: 0.25s ease;
+    }
+    .lead-form input:focus,
+    .lead-form textarea:focus,
+    .lead-form select:focus {
+      border-color: rgba(216,181,106,0.3);
+      box-shadow: 0 0 0 4px rgba(216,181,106,0.08);
+    }
+    .lead-form textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+    .form-helper {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-top: -4px;
+    }
+    .form-status {
+      display: none;
+      padding: 14px 16px;
+      border-radius: 16px;
+      font-size: 0.92rem;
+      background: rgba(25,165,125,0.1);
+      border: 1px solid rgba(25,165,125,0.2);
+      color: #dcfff4;
+    }
+    .form-status.error {
+      background: rgba(255,90,90,0.1);
+      border-color: rgba(255,90,90,0.2);
+      color: #ffdede;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width:1100px) {
+      .hero-content,
+      .cta-box,
+      .footer-grid { grid-template-columns: 1fr; }
+      .stats-grid,
+      .steps-grid { grid-template-columns: repeat(2,1fr); }
+      .cards-grid,
+      .plans-grid,
+      .testimonials-grid,
+      .faq-grid { grid-template-columns: 1fr 1fr; }
+      .cta-actions { justify-content: flex-start; }
+    }
+
+    @media (max-width:860px) {
+      .nav-links,
+      .nav-actions .btn-secondary { display: none; }
+      .menu-toggle { display: inline-flex; }
+      .hero { min-height: auto; padding: calc(var(--header-h) + 50px) 0 90px; }
+      .hero-card { padding: 22px; }
+      .form-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width:680px) {
+      .section { padding: 72px 0; }
+      .stats-grid,
+      .cards-grid,
+      .plans-grid,
+      .steps-grid,
+      .testimonials-grid,
+      .faq-grid { grid-template-columns: 1fr; }
+      .brand-text strong { font-size: 0.92rem; }
+      .brand-text span { font-size: 0.72rem; }
+      .hero h1 { font-size: clamp(2.2rem, 10vw, 3.4rem); }
+      .hero p,
+      .section-subtitle,
+      .cta-box p { font-size: 0.98rem; }
+      .card-content,
+      .step-card,
+      .testimonial-card,
+      .cta-box,
+      .process-note { padding: 22px; }
+      .card-image { height: 220px; }
+      .hero-buttons,
+      .cta-actions,
+      .card-actions,
+      .modal-footer { flex-direction: column; }
+      .btn { width: 100%; }
+      .hero-mini-stats { grid-template-columns: 1fr; }
+      .whatsapp-float {
+        width: 58px;
+        height: 58px;
+        right: 14px;
+        bottom: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <div class="container nav">
+      <a href="#inicio" class="brand">
+        <img src="imagens/capa-olympo.jpg" alt="Logo OLYMPO CRIAÇÕES" />
+        <div class="brand-text">
+          <strong>OLYMPO CRIAÇÕES</strong>
+          <span>Agência Premium</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#planos">Planos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-secondary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          <span></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#planos">Planos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-content">
+        <div class="reveal">
+          <div class="badge">● Estrutura digital premium para negócios</div>
+          <h1>Transformamos negócios em <span class="gold-text">máquinas de vendas online.</span></h1>
+          <p>
+            Criamos sites profissionais, organizamos o Instagram e desenvolvemos uma estrutura digital estratégica
+            para gerar mais autoridade, presença online e crescimento real para o seu negócio.
+          </p>
+          <div class="hero-buttons">
+            <a href="#planos" class="btn btn-primary">COMEÇAR AGORA</a>
+            <a href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <h3>Presença forte. Estrutura premium. Crescimento inteligente.</h3>
+          <p>
+            A OLYMPO CRIAÇÕES desenvolve uma presença digital moderna para empresas que desejam vender mais,
+            transmitir profissionalismo e se posicionar com autoridade no mercado.
+          </p>
+          <div class="hero-mini-stats">
+            <div>
+              <strong>120+</strong>
+              <span>Projetos entregues</span>
+            </div>
+            <div>
+              <strong>98%</strong>
+              <span>Clientes satisfeitos</span>
+            </div>
+            <div>
+              <strong>24h</strong>
+              <span>Início do atendimento</span>
+            </div>
+            <div>
+              <strong>3x</strong>
+              <span>Mais autoridade online</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Estatísticas">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <h3>120+</h3>
+            <p>projetos desenvolvidos com foco em resultado e posicionamento digital.</p>
+          </div>
+          <div class="stat-card reveal">
+            <h3>98%</h3>
+            <p>de clientes satisfeitos com a entrega, visual e estrutura do serviço.</p>
+          </div>
+          <div class="stat-card reveal">
+            <h3>24h</h3>
+            <p>para início do atendimento e alinhamento do projeto após contato.</p>
+          </div>
+          <div class="stat-card reveal">
+            <h3>3x</h3>
+            <p>mais autoridade online com uma apresentação profissional da marca.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="badge reveal">● Serviços avulsos</div>
+        <h2 class="section-title reveal">Soluções sob medida para acelerar sua <span class="gold-text">presença digital</span></h2>
+        <p class="section-subtitle reveal">
+          Escolha um serviço específico para fortalecer sua marca, melhorar seu Instagram ou criar sua estrutura online com visual premium.
+        </p>
+
+        <div class="cards-grid">
+          <article class="service-card reveal">
+            <div class="card-image">
+              <img src="imagens/instagram-pro.jpg" alt="Instagram Pro" />
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Instagram Pro</span>
+              <h3>Instagram Pro</h3>
+
+              <div class="price-box">
+                <div class="price-main">
+                  <span>Comece pagando apenas o inicial</span>
+                  <strong>R$197</strong>
+                </div>
+                <div class="price-monthly">
+                  <span>Mensalidade opcional para continuidade</span>
+                  <strong>R$127/mês</strong>
+                </div>
+              </div>
+
+              <ul class="pricing-guidance">
+                <li>Pagamento inicial avulso</li>
+                <li>Nenhuma cobrança automática</li>
+                <li>Após o pagamento inicial nossa equipe entra em contato para iniciar o projeto</li>
+                <li>A mensalidade é opcional e contratada separadamente após o pagamento inicial</li>
+              </ul>
+
+              <ul class="feature-list">
+                <li>8 imagens por mês</li>
+                <li>1 vídeo por mês</li>
+                <li>Organização do perfil</li>
+                <li>Bio estratégica</li>
+                <li>Identidade visual do feed</li>
+              </ul>
+
+              <div class="deadline">Prazo de início em até 2 dias úteis.</div>
+              <div class="card-actions">
+                <button class="btn btn-outline open-details" data-service="instagramPro">Ver detalhes</button>
+                <button class="btn btn-primary open-form" data-service="instagramPro">Pagar valor inicial</button>
+                <a class="btn btn-secondary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="card-image">
+              <img src="imagens/conteudo.jpg" alt="Conteúdo" />
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Conteúdo</span>
+              <h3>Conteúdo</h3>
+
+              <div class="price-box">
+                <div class="price-main">
+                  <span>Comece pagando apenas o inicial</span>
+                  <strong>R$247</strong>
+                </div>
+                <div class="price-monthly">
+                  <span>Mensalidade opcional para continuidade</span>
+                  <strong>R$147/mês</strong>
+                </div>
+              </div>
+
+              <ul class="pricing-guidance">
+                <li>Pagamento inicial avulso</li>
+                <li>Nenhuma cobrança automática</li>
+                <li>Após o pagamento inicial nossa equipe entra em contato para iniciar o projeto</li>
+                <li>A mensalidade é opcional e contratada separadamente após o pagamento inicial</li>
+              </ul>
+
+              <ul class="feature-list">
+                <li>12 imagens por mês</li>
+                <li>4 vídeos por mês</li>
+                <li>Ideias de conteúdo</li>
+                <li>Roteiros estratégicos</li>
+                <li>Publicação feita pelo cliente</li>
+              </ul>
+
+              <div class="important-phrase">Você recebe todo o conteúdo pronto. Basta publicar no seu Instagram ou redes sociais.</div>
+              <div class="deadline">Prazo de produção em até 3 dias úteis.</div>
+              <div class="card-actions">
+                <button class="btn btn-outline open-details" data-service="conteudo">Ver detalhes</button>
+                <button class="btn btn-primary open-form" data-service="conteudo">Pagar valor inicial</button>
+                <a class="btn btn-secondary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="card-image">
+              <img src="imagens/site-pro.jpg" alt="Site Pro" />
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Site Pro</span>
+              <h3>Site Pro</h3>
+
+              <div class="price-box">
+                <div class="price-main">
+                  <span>Comece pagando apenas o inicial</span>
+                  <strong>R$297</strong>
+                </div>
+                <div class="price-monthly">
+                  <span>Mensalidade opcional para continuidade</span>
+                  <strong>R$167/mês</strong>
+                </div>
+              </div>
+
+              <ul class="pricing-guidance">
+                <li>Pagamento inicial avulso</li>
+                <li>Nenhuma cobrança automática</li>
+                <li>Após o pagamento inicial nossa equipe entra em contato para iniciar o projeto</li>
+                <li>A mensalidade é opcional e contratada separadamente após o pagamento inicial</li>
+              </ul>
+
+              <ul class="feature-list">
+                <li>Site profissional</li>
+                <li>Design premium</li>
+                <li>Estrutura de vendas</li>
+                <li>Integração com WhatsApp</li>
+                <li>SEO básico + manutenção básica</li>
+              </ul>
+
+              <div class="deadline">Prazo de criação de até 3 dias úteis.</div>
+              <div class="card-actions">
+                <button class="btn btn-outline open-details" data-service="sitePro">Ver detalhes</button>
+                <button class="btn btn-primary open-form" data-service="sitePro">Pagar valor inicial</button>
+                <a class="btn btn-secondary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="planos">
+      <div class="container">
+        <div class="badge reveal">● Planos principais</div>
+        <h2 class="section-title reveal">Escolha o plano ideal para elevar sua <span class="gold-text">marca ao próximo nível</span></h2>
+        <p class="section-subtitle reveal">
+          Nossos planos combinam site, conteúdo, organização e gestão estratégica para aumentar autoridade e facilitar a conversão de clientes.
+        </p>
+
+        <div class="plans-grid">
+          <article class="plan-card reveal">
+            <div class="card-image">
+              <img src="imagens/plano-basico.jpg" alt="Plano Básico" />
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Plano Básico</span>
+              <h3>Plano Básico</h3>
+
+              <div class="price-box">
+                <div class="price-main">
+                  <span>Comece pagando apenas o inicial</span>
+                  <strong>R$197</strong>
+                </div>
+                <div class="price-monthly">
+                  <span>Mensalidade opcional para continuidade</span>
+                  <strong>R$97/mês</strong>
+                </div>
+              </div>
+
+              <ul class="pricing-guidance">
+                <li>Pagamento inicial avulso</li>
+                <li>Nenhuma cobrança automática</li>
+                <li>Após o pagamento inicial nossa equipe entra em contato para iniciar o projeto</li>
+                <li>A mensalidade é opcional e contratada separadamente após o pagamento inicial</li>
+              </ul>
+
+              <ul class="feature-list">
+                <li>Site profissional</li>
+                <li>4 imagens para feed por mês</li>
+                <li>1 vídeo curto por mês</li>
+                <li>Publicação feita pelo cliente</li>
+              </ul>
+
+              <div class="card-actions">
+                <button class="btn btn-outline open-details" data-service="planoBasico">Ver detalhes</button>
+                <button class="btn btn-primary open-form" data-service="planoBasico">Pagar valor inicial</button>
+                <a class="btn btn-secondary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="plan-card featured reveal">
+            <div class="featured-badge">Mais escolhido</div>
+            <div class="card-image">
+              <img src="imagens/plano-profissional.jpg" alt="Plano Profissional" />
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Plano Profissional</span>
+              <h3>Plano Profissional</h3>
+
+              <div class="price-box">
+                <div class="price-main">
+                  <span>Comece pagando apenas o inicial</span>
+                  <strong>R$497</strong>
+                </div>
+                <div class="price-monthly">
+                  <span>Mensalidade opcional para continuidade</span>
+                  <strong>R$247/mês</strong>
+                </div>
+              </div>
+
+              <ul class="pricing-guidance">
+                <li>Pagamento inicial avulso</li>
+                <li>Nenhuma cobrança automática</li>
+                <li>Após o pagamento inicial nossa equipe entra em contato para iniciar o projeto</li>
+                <li>A mensalidade é opcional e contratada separadamente após o pagamento inicial</li>
+              </ul>
+
+              <ul class="feature-list">
+                <li>Site profissional completo</li>
+                <li>Organização do Instagram</li>
+                <li>Bio estratégica</li>
+                <li>Identidade visual do feed</li>
+                <li>8 imagens por mês + 1 vídeo por mês</li>
+                <li>2 publicações por semana no feed</li>
+              </ul>
+
+              <div class="note">As publicações são feitas pela OLYMPO CRIAÇÕES. O cliente deve fornecer acesso ao Instagram ou adicionar a equipe como administrador.</div>
+              <div class="card-actions">
+                <button class="btn btn-outline open-details" data-service="planoProfissional">Ver detalhes</button>
+                <button class="btn btn-primary open-form" data-service="planoProfissional">Pagar valor inicial</button>
+                <a class="btn btn-secondary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="plan-card reveal">
+            <div class="card-image">
+              <img src="imagens/plano-premium.jpg" alt="Plano Premium" />
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Plano Premium</span>
+              <h3>Plano Premium</h3>
+
+              <div class="price-box">
+                <div class="price-main">
+                  <span>Comece pagando apenas o inicial</span>
+                  <strong>R$797</strong>
+                </div>
+                <div class="price-monthly">
+                  <span>Mensalidade opcional para continuidade</span>
+                  <strong>R$397/mês</strong>
+                </div>
+              </div>
+
+              <ul class="pricing-guidance">
+                <li>Pagamento inicial avulso</li>
+                <li>Nenhuma cobrança automática</li>
+                <li>Após o pagamento inicial nossa equipe entra em contato para iniciar o projeto</li>
+                <li>A mensalidade é opcional e contratada separadamente após o pagamento inicial</li>
+              </ul>
+
+              <ul class="feature-list">
+                <li>Site premium</li>
+                <li>Gestão profissional do Instagram</li>
+                <li>Planejamento estratégico</li>
+                <li>12 imagens por mês</li>
+                <li>4 vídeos curtos por mês</li>
+                <li>3 publicações por semana no feed</li>
+              </ul>
+
+              <div class="important-phrase">Gestão completa do perfil com conteúdo e estratégia mensal.</div>
+              <div class="note">Inclui uma reunião estratégica mensal.</div>
+              <div class="card-actions">
+                <button class="btn btn-outline open-details" data-service="planoPremium">Ver detalhes</button>
+                <button class="btn btn-primary open-form" data-service="planoPremium">Pagar valor inicial</button>
+                <a class="btn btn-secondary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="plan-card custom-plan reveal">
+            <div class="card-image">
+              <img src="imagens/projeto-personalizado.jpg" alt="Projeto Personalizado" />
+            </div>
+            <div class="card-content">
+              <span class="custom-badge">Solução Sob Medida</span>
+              <span class="card-tag">Projeto Personalizado</span>
+              <h3>Projeto Personalizado</h3>
+
+              <div class="price-box">
+                <div class="price-main">
+                  <span>Projeto sob orçamento</span>
+                  <strong>Sob orçamento</strong>
+                </div>
+                <div class="price-monthly">
+                  <span>Atendimento</span>
+                  <strong>Via WhatsApp</strong>
+                </div>
+              </div>
+
+              <ul class="pricing-guidance">
+                <li>Este serviço é desenvolvido sob medida</li>
+                <li>O orçamento é feito após entender a necessidade do projeto</li>
+                <li>A contratação é alinhada diretamente com nossa equipe</li>
+              </ul>
+
+              <ul class="feature-list">
+                <li>Cabanas e pousadas com sistema de reservas</li>
+                <li>Restaurantes com pedidos online</li>
+                <li>Mercados com catálogo digital</li>
+                <li>Clínicas com sistema de agendamento</li>
+                <li>Plataformas e sistemas personalizados</li>
+              </ul>
+
+              <div class="card-actions">
+                <button class="btn btn-outline open-details" data-service="projetoPersonalizado">Ver detalhes</button>
+                <a class="btn btn-primary" href="https://wa.me/5541997670831?text=Ol%C3%A1%2C%20quero%20solicitar%20um%20or%C3%A7amento%20para%20um%20Projeto%20Personalizado." target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="como-funciona">
+      <div class="container">
+        <div class="badge reveal">● Como funciona</div>
+        <h2 class="section-title reveal">Seu projeto começa de forma <span class="gold-text">simples e rápida</span></h2>
+        <p class="section-subtitle reveal">
+          Criamos um fluxo direto para facilitar sua contratação e acelerar o início da sua estrutura digital.
+        </p>
+
+        <div class="steps-grid">
+          <article class="step-card reveal">
+            <div class="step-number">1</div>
+            <h3>Escolha o serviço ou plano</h3>
+            <p>Selecione a opção que melhor combina com o momento do seu negócio e seus objetivos digitais.</p>
+          </article>
+
+          <article class="step-card reveal">
+            <div class="step-number">2</div>
+            <h3>Preencha suas informações</h3>
+            <p>Ao clicar em pagar valor inicial, você informa seus dados para que nossa equipe possa iniciar o projeto corretamente.</p>
+          </article>
+
+          <article class="step-card reveal">
+            <div class="step-number">3</div>
+            <h3>Faça o pagamento inicial</h3>
+            <p>O pagamento inicial libera a contratação e garante o início oficial da sua estrutura digital.</p>
+          </article>
+
+          <article class="step-card reveal">
+            <div class="step-number">4</div>
+            <h3>Nossa equipe entra em contato</h3>
+            <p>Após a confirmação do pagamento, alinhamos os detalhes do projeto. A continuidade mensal é opcional e combinada separadamente.</p>
+          </article>
+        </div>
+
+        <div class="process-note reveal">
+          Após a confirmação do pagamento inicial, nossa equipe entra em contato para iniciar seu projeto. A mensalidade não é cobrada automaticamente e pode ser contratada separadamente depois, caso você deseje continuidade.
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="depoimentos">
+      <div class="container">
+        <div class="badge reveal">● Depoimentos</div>
+        <h2 class="section-title reveal">Quem contrata, percebe a diferença na <span class="gold-text">apresentação da marca</span></h2>
+        <p class="section-subtitle reveal">
+          Empresas e profissionais que buscavam mais autoridade, organização visual e presença online mais forte.
+        </p>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“O site ficou extremamente profissional e nosso Instagram passou a transmitir muito mais confiança. A percepção da marca mudou completamente.”</p>
+            <strong>Mariana Lopes</strong>
+            <span>Empreendedora</span>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Gostei muito da organização, do visual premium e da rapidez no atendimento. Ficou tudo alinhado com o que eu queria para minha empresa.”</p>
+            <strong>Rafael Costa</strong>
+            <span>Prestador de serviços</span>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“A OLYMPO CRIAÇÕES trouxe identidade, posicionamento e estrutura digital real. Hoje meu perfil passa muito mais autoridade.”</p>
+            <strong>Juliana Martins</strong>
+            <span>Negócio local</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="badge reveal">● FAQ</div>
+        <h2 class="section-title reveal">Perguntas <span class="gold-text">frequentes</span></h2>
+        <p class="section-subtitle reveal">
+          Tire suas dúvidas antes de contratar e entenda como funciona o processo da OLYMPO CRIAÇÕES.
+        </p>
+
+        <div class="faq-grid">
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span>O pagamento mensal é cobrado automaticamente?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Não. No site você paga apenas o valor inicial. A mensalidade é opcional e contratada separadamente após o início do serviço.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span>Posso contratar apenas o valor inicial?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sim. O pagamento inicial é avulso e permite iniciar o serviço normalmente.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span>Como funciona a mensalidade?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Após o pagamento inicial, nossa equipe entra em contato e orienta sobre a continuidade do serviço. A mensalidade é opcional.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span>Quanto tempo leva para começar o serviço?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>O início varia conforme o serviço contratado. Em alguns casos começamos em até 2 dias úteis, e em outros em até 3 dias úteis após alinhamento.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span>Quem faz as publicações no Instagram?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>No serviço Conteúdo e no Plano Básico, a publicação é feita pelo cliente. No Plano Profissional e no Plano Premium, as publicações são feitas pela OLYMPO CRIAÇÕES.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span>Posso contratar apenas um serviço avulso?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sim. Você pode contratar apenas um serviço avulso, como Instagram Pro, Conteúdo ou Site Pro, conforme a necessidade do seu negócio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div>
+            <div class="badge">● Pronto para crescer?</div>
+            <h2 class="section-title">Sua marca merece uma presença digital <span class="gold-text">forte, elegante e estratégica</span></h2>
+            <p>
+              Fale agora com a OLYMPO CRIAÇÕES e comece sua estrutura digital com atendimento rápido, visual premium e foco em resultado.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+            <a class="btn btn-outline" href="#planos">Ver planos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="imagens/capa-olympo.jpg" alt="Logo OLYMPO CRIAÇÕES" />
+            <div>
+              <h4>OLYMPO CRIAÇÕES</h4>
+              <p>Agência de marketing digital com visual premium, autoridade e estratégia para negócios.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4>Contato</h4>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+            <li><a href="https://www.instagram.com/olympo_criacoes" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="mailto:luizfelipesalles15@gmail.com">luizfelipesalles15@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 OLYMPO CRIAÇÕES. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">✆</a>
+
+  <div class="modal" id="detailsModal" aria-hidden="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="detailsTitle">Detalhes</h3>
+        <button class="modal-close" data-close="detailsModal" aria-label="Fechar modal">×</button>
+      </div>
+      <div class="modal-body" id="detailsBody"></div>
+      <div class="modal-footer" id="detailsFooter"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="formModal" aria-hidden="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Preencha suas informações</h3>
+        <button class="modal-close" data-close="formModal" aria-label="Fechar modal">×</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="selected-service-chip" id="selectedServiceChip">Serviço selecionado</div>
+        <p class="form-helper">Após preencher, suas informações serão registradas e você será redirecionado para o pagamento inicial.</p>
+
+        <form id="leadForm" class="lead-form">
+          <div class="form-grid">
+            <label>
+              Nome completo
+              <input type="text" name="nome" required />
+            </label>
+
+            <label>
+              WhatsApp
+              <input type="tel" name="whatsapp" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+
+            <label>
+              Instagram ou empresa
+              <input type="text" name="empresa_instagram" required />
+            </label>
+
+            <label class="full">
+              Objetivo do projeto
+              <input type="text" name="objetivo" required />
+            </label>
+
+            <label class="full">
+              Observações
+              <textarea name="observacoes" placeholder="Conte um pouco mais sobre o seu projeto, sua empresa ou o que você precisa."></textarea>
+            </label>
+          </div>
+
+          <input type="hidden" name="servico_escolhido" id="servicoEscolhido" />
+          <input type="hidden" name="valor_inicial" id="valorInicial" />
+          <input type="hidden" name="mensalidade_info" id="mensalidadeInfo" />
+
+          <div class="form-status" id="formStatus"></div>
+
+          <button type="submit" class="btn btn-primary" id="submitLeadBtn">Continuar para o pagamento inicial</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const formSubmitEmail = "luizfelipesalles15@gmail.com";
+
+    const pagamentosIniciais = {
+      instagramPro: "https://mpago.la/2GQfBrD",
+      conteudo: "https://mpago.la/2q2mpA6",
+      sitePro: "https://mpago.la/1iJGWJi",
+      planoBasico: "https://mpago.la/2EafsPW",
+      planoProfissional: "https://mpago.la/2a3cqGN",
+      planoPremium: "https://mpago.la/1Gc9Cj9"
+    };
+
+    const services = {
+      instagramPro: {
+        name: "Instagram Pro",
+        initial: "R$197",
+        monthly: "R$127/mês",
+        shortName: "Instagram Pro",
+        description: "Serviço ideal para quem deseja um perfil profissional, organizado e com aparência mais estratégica.",
+        delivery: [
+          "8 imagens por mês",
+          "1 vídeo por mês",
+          "Organização do perfil",
+          "Bio estratégica",
+          "Identidade visual do feed",
+          "Planejamento de conteúdo",
+          "Posicionamento profissional",
+          "Ideias de destaques"
+        ],
+        deadline: "Prazo de início em até 2 dias úteis.",
+        note: "O cliente paga apenas o valor inicial no site. A mensalidade é opcional e contratada separadamente após o início."
+      },
+      conteudo: {
+        name: "Conteúdo",
+        initial: "R$247",
+        monthly: "R$147/mês",
+        shortName: "Conteúdo",
+        description: "Conteúdo pronto para redes sociais, criado dentro do nicho do cliente com foco em praticidade e presença constante.",
+        delivery: [
+          "12 imagens por mês",
+          "4 vídeos por mês",
+          "Conteúdo dentro do nicho do cliente",
+          "Ideias de conteúdo",
+          "Roteiros de conteúdo"
+        ],
+        deadline: "Prazo de produção em até 3 dias úteis.",
+        note: "Você recebe o conteúdo pronto e a continuidade mensal é opcional."
+      },
+      sitePro: {
+        name: "Site Pro",
+        initial: "R$297",
+        monthly: "R$167/mês",
+        shortName: "Site Pro",
+        description: "Site profissional com visual sofisticado para apresentar sua marca e facilitar contatos e conversões.",
+        delivery: [
+          "Site profissional",
+          "Design premium",
+          "Estrutura de vendas",
+          "Integração com WhatsApp",
+          "SEO básico",
+          "Manutenção básica"
+        ],
+        deadline: "Prazo de criação de até 3 dias úteis.",
+        note: "No site, o cliente paga apenas o valor inicial. A manutenção mensal é contratada separadamente se desejar continuidade."
+      },
+      planoBasico: {
+        name: "Plano Básico",
+        initial: "R$197",
+        monthly: "R$97/mês",
+        shortName: "Plano Básico",
+        description: "Plano inicial ideal para negócios que desejam começar com site e presença visual profissional.",
+        delivery: [
+          "Site profissional",
+          "4 imagens para feed por mês",
+          "1 vídeo curto por mês",
+          "Publicação feita pelo cliente"
+        ],
+        deadline: "Início após confirmação do pagamento inicial e alinhamento.",
+        note: "O pagamento inicial é avulso. A mensalidade é opcional e enviada separadamente caso o cliente queira continuidade."
+      },
+      planoProfissional: {
+        name: "Plano Profissional",
+        initial: "R$497",
+        monthly: "R$247/mês",
+        shortName: "Plano Profissional",
+        description: "Plano mais escolhido para empresas que querem presença consistente, visual profissional e execução recorrente no Instagram.",
+        delivery: [
+          "Site profissional completo",
+          "Organização do Instagram",
+          "Bio estratégica",
+          "Identidade visual do feed",
+          "Planejamento de conteúdo",
+          "Posicionamento profissional",
+          "8 imagens por mês",
+          "1 vídeo por mês",
+          "2 publicações por semana no feed"
+        ],
+        deadline: "Início após confirmação do pagamento inicial e alinhamento.",
+        note: "As publicações são feitas pela OLYMPO CRIAÇÕES. A mensalidade é opcional e contratada separadamente depois."
+      },
+      planoPremium: {
+        name: "Plano Premium",
+        initial: "R$797",
+        monthly: "R$397/mês",
+        shortName: "Plano Premium",
+        description: "Gestão completa para marcas que desejam operação estratégica, conteúdo recorrente e acompanhamento mensal.",
+        delivery: [
+          "Site premium",
+          "Gestão profissional do Instagram",
+          "Planejamento estratégico",
+          "12 imagens por mês",
+          "4 vídeos curtos por mês",
+          "3 publicações por semana no feed"
+        ],
+        deadline: "Início após confirmação do pagamento inicial e alinhamento.",
+        note: "Inclui reunião estratégica mensal. A continuidade é opcional e contratada separadamente."
+      },
+      projetoPersonalizado: {
+        name: "Projeto Personalizado",
+        initial: "Sob orçamento",
+        monthly: "Atendimento via WhatsApp",
+        shortName: "Projeto Personalizado",
+        description: "Solução ideal para empresas que precisam de uma estrutura digital mais avançada, com recursos específicos para o modelo de negócio.",
+        delivery: [
+          "Cabanas e pousadas com sistema de reservas",
+          "Restaurantes com pedidos online",
+          "Mercados com catálogo digital",
+          "Clínicas com sistema de agendamento",
+          "Plataformas e sistemas personalizados"
+        ],
+        deadline: "Orçamento definido após entender a necessidade do projeto.",
+        note: "Este serviço é tratado diretamente pelo WhatsApp."
+      }
+    };
+
+    const header = document.getElementById('header');
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 12);
+    });
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        mobileMenu.classList.remove('active');
+      });
+    });
+
+    const reveals = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.14 });
+
+    reveals.forEach(el => revealObserver.observe(el));
+
+    document.querySelectorAll('.faq-item').forEach(item => {
+      const btn = item.querySelector('.faq-question');
+      btn.addEventListener('click', () => item.classList.toggle('active'));
+    });
+
+    const detailsModal = document.getElementById('detailsModal');
+    const formModal = document.getElementById('formModal');
+    const detailsTitle = document.getElementById('detailsTitle');
+    const detailsBody = document.getElementById('detailsBody');
+    const detailsFooter = document.getElementById('detailsFooter');
+    const selectedServiceChip = document.getElementById('selectedServiceChip');
+    const leadForm = document.getElementById('leadForm');
+    const formStatus = document.getElementById('formStatus');
+    const servicoEscolhidoInput = document.getElementById('servicoEscolhido');
+    const valorInicialInput = document.getElementById('valorInicial');
+    const mensalidadeInfoInput = document.getElementById('mensalidadeInfo');
+    const submitLeadBtn = document.getElementById('submitLeadBtn');
+
+    let currentServiceKey = null;
+
+    function openModal(modal) {
+      modal.classList.add('active');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(modal) {
+      modal.classList.remove('active');
+      modal.setAttribute('aria-hidden', 'true');
+      if (!document.querySelector('.modal.active')) {
+        document.body.style.overflow = '';
+      }
+    }
+
+    document.querySelectorAll('[data-close]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const target = document.getElementById(btn.dataset.close);
+        closeModal(target);
+      });
+    });
+
+    [detailsModal, formModal].forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal(modal);
+      });
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeModal(detailsModal);
+        closeModal(formModal);
+      }
+    });
+
+    function renderDetails(serviceKey) {
+      const service = services[serviceKey];
+      if (!service) return;
+
+      detailsTitle.textContent = service.name;
+      detailsBody.innerHTML = `
+        <p>${service.description}</p>
+        <h4>Investimento inicial</h4>
+        <p>${service.initial}</p>
+        <h4>Mensalidade opcional</h4>
+        <p>${service.monthly}</p>
+        <h4>Entregas</h4>
+        <ul>
+          ${service.delivery.map(item => `<li>${item}</li>`).join('')}
+        </ul>
+        <h4>Prazo</h4>
+        <p>${service.deadline}</p>
+        <div class="payment-note">${service.note}</div>
+      `;
+
+      if (serviceKey === 'projetoPersonalizado') {
+        detailsFooter.innerHTML = `
+          <a class="btn btn-primary" href="https://wa.me/5541997670831?text=Ol%C3%A1%2C%20quero%20solicitar%20um%20or%C3%A7amento%20para%20um%20Projeto%20Personalizado." target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
+        `;
+      } else {
+        detailsFooter.innerHTML = `
+          <button class="btn btn-primary open-form-from-details" data-service="${serviceKey}">Pagar valor inicial</button>
+          <a class="btn btn-secondary" href="https://wa.me/5541997670831" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        `;
+      }
+    }
+
+    function prepareForm(serviceKey) {
+      const service = services[serviceKey];
+      if (!service) return;
+
+      currentServiceKey = serviceKey;
+      selectedServiceChip.textContent = `${service.name} • Inicial ${service.initial}`;
+      servicoEscolhidoInput.value = service.name;
+      valorInicialInput.value = service.initial;
+      mensalidadeInfoInput.value = service.monthly;
+
+      formStatus.style.display = 'none';
+      formStatus.classList.remove('error');
+      formStatus.textContent = '';
+      submitLeadBtn.disabled = false;
+      submitLeadBtn.textContent = 'Continuar para o pagamento inicial';
+    }
+
+    document.querySelectorAll('.open-details').forEach(btn => {
+      btn.addEventListener('click', () => {
+        renderDetails(btn.dataset.service);
+        openModal(detailsModal);
+      });
+    });
+
+    document.querySelectorAll('.open-form').forEach(btn => {
+      btn.addEventListener('click', () => {
+        prepareForm(btn.dataset.service);
+        openModal(formModal);
+      });
+    });
+
+    detailsFooter.addEventListener('click', (e) => {
+      const trigger = e.target.closest('.open-form-from-details');
+      if (!trigger) return;
+      closeModal(detailsModal);
+      prepareForm(trigger.dataset.service);
+      openModal(formModal);
+    });
+
+    leadForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      if (!currentServiceKey || !pagamentosIniciais[currentServiceKey] || pagamentosIniciais[currentServiceKey].includes('COLOCAR_LINK')) {
+        formStatus.textContent = 'Você ainda precisa colar o link de pagamento inicial desse serviço no código.';
+        formStatus.classList.add('error');
+        formStatus.style.display = 'block';
+        return;
+      }
+
+      if (formSubmitEmail.includes('SEUEMAILAQUI')) {
+        formStatus.textContent = 'Você ainda precisa trocar o e-mail do FormSubmit no código.';
+        formStatus.classList.add('error');
+        formStatus.style.display = 'block';
+        return;
+      }
+
+      submitLeadBtn.disabled = true;
+      submitLeadBtn.textContent = 'Enviando...';
+      formStatus.classList.remove('error');
+      formStatus.style.display = 'block';
+      formStatus.textContent = 'Registrando suas informações e preparando o pagamento inicial...';
+
+      const service = services[currentServiceKey];
+      const formData = new FormData(leadForm);
+      formData.append('_subject', `Novo cliente - ${service.name}`);
+      formData.append('_captcha', 'false');
+      formData.append('_template', 'table');
+
+      try {
+        const response = await fetch(`https://formsubmit.co/ajax/${formSubmitEmail}`, {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: formData
+        });
+
+        const result = await response.json();
+
+        if (!response.ok || result.success !== 'true') {
+          throw new Error('Falha ao enviar o formulário.');
+        }
+
+        formStatus.textContent = 'Tudo certo! Redirecionando para o pagamento inicial...';
+
+        setTimeout(() => {
+          window.location.href = pagamentosIniciais[currentServiceKey];
+        }, 900);
+      } catch (error) {
+        formStatus.textContent = 'Não foi possível enviar agora. Tente novamente ou chame no WhatsApp.';
+        formStatus.classList.add('error');
+        submitLeadBtn.disabled = false;
+        submitLeadBtn.textContent = 'Continuar para o pagamento inicial';
+      }
+    });
+  </script>
+</body>
+</html>
